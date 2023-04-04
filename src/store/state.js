@@ -1,1 +1,1 @@
-export const meals = ['Salmon'];
+export default {};
