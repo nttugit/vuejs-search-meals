@@ -5,12 +5,12 @@ import MealList from '../views/MealList.vue';
 const routes = [
   {
     path: '/',
-    home: 'home',
+    name: 'home',
     component: Home,
   },
   {
     path: '/letter/:letter',
-    home: 'byLetter',
+    name: 'byLetter',
     component: MealList,
   },
 ];
